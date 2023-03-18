@@ -8,7 +8,7 @@ export const TransactionHistory = ({ dataTransactions }) => {
       <thead className={css.thead}>
         <tr>
           <th className={css.th}>Type</th>
-          <th className={css.th}>Amount</th>
+          <th className={css.thAmount}>Amount</th>
           <th className={css.th}>Currency</th>
         </tr>
       </thead>

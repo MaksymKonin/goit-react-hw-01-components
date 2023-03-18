@@ -1,10 +1,13 @@
 .transaction-history {
+  border-collapse: collapse;
   margin: 20px auto 0 auto;
   width: 350px;
   text-align: center;
-  border-radius: 5px;
   border-spacing: 0;
   background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .thead {
@@ -12,8 +15,14 @@
   color: #fff;
 }
 
-.th {
+.th,
+.thAmount {
   padding: 12px;
+}
+
+.thAmount {
+  border-right: 1px solid rgb(238, 238, 241);
+  border-left: 1px solid rgb(238, 238, 241);
 }
 
 .tr {

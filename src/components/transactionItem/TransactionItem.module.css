@@ -6,3 +6,8 @@
 .currency {
   padding: 10px;
 }
+
+.amount {
+  border-right: 1px solid rgb(238, 238, 241);
+  border-left: 1px solid rgb(238, 238, 241);
+}
