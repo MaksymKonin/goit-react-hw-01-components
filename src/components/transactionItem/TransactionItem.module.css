@@ -1,0 +1,8 @@
+.type {
+  padding: 10px 10px 10px 25px;
+  text-align: start;
+}
+.amount,
+.currency {
+  padding: 10px;
+}

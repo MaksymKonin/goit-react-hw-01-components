@@ -4,13 +4,11 @@ import { getRandomHexColor } from 'utils/getRandomHexColor.js';
 import css from './Statistics.module.css';
 
 export const Statistics = ({ dataStats, title }) => {
-  console.log(title);
   return (
     <section className={css.statistics}>
       {title && <h2 className={css.title}>{title}</h2>}
       <ul className={css['stat-list']}>
         {dataStats.map(stat => {
-          console.log(stat.id);
           return (
             <li
               className={css.item}
